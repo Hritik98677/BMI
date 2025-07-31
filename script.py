@@ -1,3 +1,4 @@
+print("welcome to BMI Calculator by Hritik")
 weight=float(input("Enter your weight in (kgs): "))
 height=float(input("Enter your height in (m): "))
 bmi=(weight)/(height**2)
@@ -10,3 +11,4 @@ elif bmi>18:
     print("normal BMI")
 else:
     print("under weight")
+
